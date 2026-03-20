@@ -5,6 +5,7 @@ body{
     
 }
 button{
+    font-family: Georgia, serif;
     cursor: pointer;
     margin-top: 2em;
     border-radius: 10px;
@@ -12,10 +13,11 @@ button{
     font-size: 1.5em;
     background-color: rgb(149, 71, 71);
     box-shadow: 3px 2.5px rgb(145, 28, 28);
-    
 }
 button:hover{
     background-color: rgb(200, 23, 23);
+    transform: rotatex(360deg);
+    transition: 1.5s;
 }
 #imgDisplay img{
     width: 100px;
